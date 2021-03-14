@@ -12,6 +12,10 @@ If you hit the save button after typeing somehting in, then all of your informat
 
 Using local storage we can keep all of saved text. 
 
-orking on making it look a litte bit nicer but it is funtioning! 
+Working on making it look a litte bit nicer but it is funtioning! 
+
+https://nateghsc09.github.io/work-day/
+
+![screenshot](.//screenshot.jpg)
 
 
