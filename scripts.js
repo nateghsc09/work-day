@@ -42,7 +42,7 @@ saveBtn.click(function (event) {
     var clickedButton = $(this);
     var buttonTime = $(this).parent();
     var buttonText = $(this).siblings('textarea');
-    
+
     var newPlan = {
         time: buttonTime.attr('id'),
         text: buttonText.val()
@@ -57,13 +57,13 @@ saveBtn.click(function (event) {
 
 function getAllExstingPlans() {
     if (localStorage.getItem('plans')) {
-        allPlans =JSON.parse(localStorage.getItem('plans'));
+        allPlans = JSON.parse(localStorage.getItem('plans'));
 
     }
     if (allPlans.length > 0) {
-        for (var i =0;  i < allPlans.length; i++){
+        for (var i = 0; i < allPlans.length; i++) {
             console.log(allPlans[i]);
-            var parent = $( `#${allPlans[i].time}`);
+            var parent = $(`#${allPlans[i].time}`);
             var textAreaChild = parent.children('textarea');
             textAreaChild.val(allPlans[i].text)
             console.log(parent);
