@@ -1,27 +1,13 @@
-var day = {
-    "8am" : "",
-    "9am" : "",
-    "10am" : "",
-    "11am" : "",
-    "12pm" : "",
-    "1pm" : "",
-    "2pm" : "",
-    "3pm" : "",
-    "4pm" : "",
-    "5pm" : "",
-    "6pm" : "",
 
+var currentDay = $('#currentDay');
 
+var timeInterval;
+function setTime () {
+    currentDay.text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+}
 
-};
+timeInterval = setInterval(setTime, 1000);
 
-
-
-
-
-
-
-$('#currentDay').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
 
 
