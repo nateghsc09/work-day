@@ -16,6 +16,6 @@ Working on making it look a litte bit nicer but it is funtioning!
 
 https://nateghsc09.github.io/work-day/
 
-![screenshot](.//screenshot.jpg)
+![screenshot](.//assets/Screenshot.jpg)
 
 
